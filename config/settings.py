@@ -221,7 +221,7 @@ credentials_path = f"config/{credentials_file}"
 
 GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
     # os.path.join(BASE_DIR, f"config/{credentials_file}")
-    os.path.join(BASE_DIR, f"config/h-pfolio-4-ec374b435042.json")
+    os.path.join(BASE_DIR, f"config/gcs.keyfile")
 )
 
 DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'

@@ -6,6 +6,8 @@ venv
 
 node_modules
 
+/config/secrets/*
+
 heidless-pfolio*.json
 
 # Byte-compiled / optimized / DLL files
